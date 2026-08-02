@@ -281,6 +281,19 @@
         .tech-tag.hw { background: #e8fde8; color: #1e8449; }
         .tech-tag.sw { background: #f3e8fd; color: #6c3483; }
 
+        /* ===== V12: Honor Tag (荣誉类项目标签) ===== */
+        .honor-tag {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            background: linear-gradient(135deg, #f0e6ff, #e8daff);
+            color: #6c3483;
+            border: 1px solid #d4b8e8;
+            white-space: nowrap;
+        }
+
         /* ===== Mobile Card View (hidden on desktop) ===== */
         .mobile-cards { display: none; }
 
@@ -766,7 +779,7 @@
                 <div class="stat-label">可申报项目总数</div>
             </div>
             <div class="stat-card">
-                <div class="stat-num">~10000+</div>
+                <div class="stat-num">~3300</div>
                 <div class="stat-label">预计奖补总额（万元）</div>
             </div>
             <div class="stat-card">
@@ -813,7 +826,7 @@
                         <td data-label="归口部门">国家发改委/财政部</td>
                         <td data-label="申报层级"><span class="level-tag level-national">国家级</span></td>
                         <td data-label="申报周期">分批次（6-7月第三批）</td>
-                        <td data-label="预计奖补" class="amount">最高10000</td>
+                        <td data-label="预计奖补" class="amount">800-1500</td>
                         <td data-label="技术方向">
                             <span class="tech-tag hw">高效电解槽</span>
                             <span class="tech-tag hw">节能变压器</span>
@@ -830,7 +843,7 @@
                         <td data-label="归口部门">国家发改委</td>
                         <td data-label="申报层级"><span class="level-tag level-national">国家级</span></td>
                         <td data-label="申报周期">1-3月（2027批次筹备）</td>
-                        <td data-label="预计奖补" class="amount">最高3000</td>
+                        <td data-label="预计奖补" class="amount">300-400</td>
                         <td data-label="技术方向">
                             <span class="tech-tag hw">自动化产线</span>
                             <span class="tech-tag sw">ERP/MES集成</span>
@@ -847,7 +860,7 @@
                         <td data-label="归口部门">发改委/工信部</td>
                         <td data-label="申报层级"><span class="level-tag level-national">国家级</span></td>
                         <td data-label="申报周期">4-5月</td>
-                        <td data-label="预计奖补" class="amount">最高5000</td>
+                        <td data-label="预计奖补" class="amount">500-1000</td>
                         <td data-label="技术方向">
                             <span class="tech-tag hw">高纯铝材料</span>
                             <span class="tech-tag hw">新型合金</span>
@@ -864,7 +877,7 @@
                         <td data-label="归口部门">国家数据局/工信部</td>
                         <td data-label="申报层级"><span class="level-tag level-national">国家级</span></td>
                         <td data-label="申报周期">4-5月</td>
-                        <td data-label="预计奖补" class="amount">最高1000</td>
+                        <td data-label="预计奖补" class="amount">150-200</td>
                         <td data-label="技术方向">
                             <span class="tech-tag ai">AI视觉检测</span>
                             <span class="tech-tag ai">能耗优化算法</span>
@@ -881,7 +894,7 @@
                         <td data-label="归口部门">山东省工信厅/财政厅</td>
                         <td data-label="申报层级"><span class="level-tag level-province">省级</span></td>
                         <td data-label="申报周期">6月（6月15日前）</td>
-                        <td data-label="预计奖补" class="amount">最高2000</td>
+                        <td data-label="预计奖补" class="amount">300-400</td>
                         <td data-label="技术方向">
                             <span class="tech-tag hw">智能电解设备</span>
                             <span class="tech-tag hw">余热回收装置</span>
@@ -898,7 +911,7 @@
                         <td data-label="归口部门">山东省工信厅/财政厅</td>
                         <td data-label="申报层级"><span class="level-tag level-province">省级</span></td>
                         <td data-label="申报周期">5月（5月15日前）</td>
-                        <td data-label="预计奖补" class="amount">最高2000</td>
+                        <td data-label="预计奖补" class="amount">100-200</td>
                         <td data-label="技术方向">
                             <span class="tech-tag hw">节能设备</span>
                             <span class="tech-tag hw">自动化改造</span>
@@ -915,7 +928,7 @@
                         <td data-label="归口部门">山东省工信厅/财政厅</td>
                         <td data-label="申报层级"><span class="level-tag level-province">省级</span></td>
                         <td data-label="申报周期">按年度通知</td>
-                        <td data-label="预计奖补" class="amount">100-1500</td>
+                        <td data-label="预计奖补" class="amount">100-200</td>
                         <td data-label="技术方向">
                             <span class="tech-tag sw">工业互联网平台</span>
                             <span class="tech-tag hw">5G+工业</span>
@@ -932,7 +945,7 @@
                         <td data-label="归口部门">山东省工信厅</td>
                         <td data-label="申报层级"><span class="level-tag level-province">省级</span></td>
                         <td data-label="申报周期">3-4月</td>
-                        <td data-label="预计奖补" class="amount">50-100</td>
+                        <td data-label="预计奖补" class="amount"><span class="honor-tag">荣誉类项目</span></td>
                         <td data-label="技术方向">
                             <span class="tech-tag hw">智能传感</span>
                             <span class="tech-tag sw">MES系统</span>
@@ -966,7 +979,7 @@
                         <td data-label="归口部门">聊城市工信局/财政局</td>
                         <td data-label="申报层级"><span class="level-tag level-city">市级</span></td>
                         <td data-label="申报周期">5-6月</td>
-                        <td data-label="预计奖补" class="amount">最高300</td>
+                        <td data-label="预计奖补" class="amount">50-100</td>
                         <td data-label="技术方向">
                             <span class="tech-tag hw">数控设备</span>
                             <span class="tech-tag sw">工业软件</span>
@@ -983,7 +996,7 @@
                         <td data-label="归口部门">聊城市工信局</td>
                         <td data-label="申报层级"><span class="level-tag level-city">市级</span></td>
                         <td data-label="申报周期">按批次（年内多批）</td>
-                        <td data-label="预计奖补" class="amount">最高200</td>
+                        <td data-label="预计奖补" class="amount">50-100</td>
                         <td data-label="技术方向">
                             <span class="tech-tag sw">ERP系统</span>
                             <span class="tech-tag sw">MES系统</span>
@@ -1009,7 +1022,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">技术改造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">国家发改委/财政部</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">分批次（6-7月第三批）</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">最高10000万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">800-1500万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag hw">高效电解槽</span>
                         <span class="tech-tag hw">节能变压器</span>
@@ -1030,7 +1043,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">智能制造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">国家发改委</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">1-3月（2027批次筹备）</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">最高3000万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">300-400万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag hw">自动化产线</span>
                         <span class="tech-tag sw">ERP/MES集成</span>
@@ -1051,7 +1064,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">科技创新</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">发改委/工信部</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">4-5月</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">最高5000万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">500-1000万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag hw">高纯铝材料</span>
                         <span class="tech-tag hw">新型合金</span>
@@ -1072,7 +1085,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">智能制造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">国家数据局/工信部</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">4-5月</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">最高1000万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">150-200万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag ai">AI视觉检测</span>
                         <span class="tech-tag ai">能耗优化算法</span>
@@ -1093,7 +1106,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">技术改造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">山东省工信厅/财政厅</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">6月（6月15日前）</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">最高2000万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">300-400万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag hw">智能电解设备</span>
                         <span class="tech-tag hw">余热回收装置</span>
@@ -1114,7 +1127,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">技术改造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">山东省工信厅/财政厅</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">5月（5月15日前）</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">最高2000万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">100-200万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag hw">节能设备</span>
                         <span class="tech-tag hw">自动化改造</span>
@@ -1135,7 +1148,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">智能制造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">山东省工信厅/财政厅</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">按年度通知</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">100-1500万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">100-200万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag sw">工业互联网平台</span>
                         <span class="tech-tag hw">5G+工业</span>
@@ -1156,7 +1169,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">智能制造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">山东省工信厅</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">3-4月</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">50-100万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value"><span class="honor-tag">荣誉类项目</span></div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag hw">智能传感</span>
                         <span class="tech-tag sw">MES系统</span>
@@ -1198,7 +1211,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">技术改造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">聊城市工信局/财政局</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">5-6月</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">最高300万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">50-100万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag hw">数控设备</span>
                         <span class="tech-tag sw">工业软件</span>
@@ -1219,7 +1232,7 @@
                     <div class="m-field"><div class="m-label">项目类别</div><div class="m-value"><span class="category-tag">智能制造</span></div></div>
                     <div class="m-field"><div class="m-label">归口部门</div><div class="m-value">聊城市工信局</div></div>
                     <div class="m-field"><div class="m-label">申报周期</div><div class="m-value">按批次（年内多批）</div></div>
-                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">最高200万元</div></div>
+                    <div class="m-field"><div class="m-label">预计奖补</div><div class="m-value amount">50-100万元</div></div>
                     <div class="m-field"><div class="m-label">技术方向</div><div class="m-value">
                         <span class="tech-tag sw">ERP系统</span>
                         <span class="tech-tag sw">MES系统</span>
@@ -1361,7 +1374,7 @@
         <div class="card" style="background: #fffbeb; border-color: #f5deb3;">
             <h3 style="color: #b8860b;">&#9888;&#65039; 重要提示</h3>
             <p style="font-size: 13px; color: #8b7355; margin-top: 8px;">
-                本清单所列信息基于公开资料整理，仅供参考。具体申报条件、奖补金额和时间节点以各级主管部门发布的最新官方文件为准。建议企业密切关注工业和信息化部、国家发展改革委、山东省工业和信息化厅、聊城市工业和信息化局的年度申报通知，提前做好材料准备。预计奖补金额可能因政策调整而变化，部分项目奖补金额需根据实际投资额计算。
+                本清单所列信息基于公开资料整理，仅供参考。具体申报条件、奖补金额和时间节点以各级主管部门发布的最新官方文件为准。建议企业密切关注工业和信息化部、国家发展改革委、山东省工业和信息化厅、聊城市工业和信息化局的年度申报通知，提前做好材料准备。预计奖补金额为基于公开政策及企业实际投资规模的保守预估值，可能因政策调整而变化。标注为"荣誉类项目"的条目以获得资质认定为主要价值，直接资金奖励较少。
             </p>
             <!-- ▼▼▼ ⚠️ 固定板块：项目申报全生命周期 —— 所有企业完全一致，不可修改 ▼▼▼ -->
             <div class="lifecycle-bar">
